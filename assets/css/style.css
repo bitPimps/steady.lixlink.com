@@ -12,6 +12,7 @@
   --accent: #84a59d;
   --accent-pressed: #6f8f87;
   --accent-soft: #e4ebe9;
+  --accent-text: #3f544e;
   --danger: #c9776c;
 
   --dark-bg: #1a1c20;
@@ -31,6 +32,7 @@
     --text: #f6f4f2;
     --text-muted: #9c9994;
     --accent-soft: #33403c;
+    --accent-text: #b7cec8;
   }
 }
 
@@ -128,7 +130,7 @@ img {
 
 .nav-cta {
   background: var(--accent);
-  color: #1a1c20;
+  color: #000000;
   padding: 10px 18px;
   border-radius: 100px;
   font-weight: 600;
@@ -227,7 +229,7 @@ img {
 
 .btn-primary {
   background: var(--accent);
-  color: #1a1c20;
+  color: #000000;
 }
 
 .btn-primary:hover {
@@ -246,13 +248,13 @@ img {
 
 .btn-outline {
   background: transparent;
-  border-color: var(--border);
+  border-color: var(--text-muted);
   color: var(--text);
 }
 
 .btn-outline:hover {
-  border-color: var(--accent);
-  color: var(--accent-pressed);
+  border-color: var(--accent-pressed);
+  color: var(--accent-text);
 }
 
 /* Sections */
@@ -268,7 +270,7 @@ section {
 }
 
 .section-head .eyebrow {
-  color: var(--accent-pressed);
+  color: var(--accent-text);
   background: var(--accent-soft);
 }
 
@@ -305,7 +307,7 @@ section {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  color: var(--accent-pressed);
+  color: var(--accent-text);
   background: var(--accent-soft);
   padding: 4px 10px;
   border-radius: 100px;
