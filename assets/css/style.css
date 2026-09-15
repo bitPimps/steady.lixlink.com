@@ -128,7 +128,7 @@ img {
   color: var(--text);
 }
 
-.nav-cta {
+.nav-links a.nav-cta {
   background: var(--accent);
   color: #000000;
   padding: 10px 18px;
