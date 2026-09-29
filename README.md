@@ -23,18 +23,26 @@ assets/img/screens/    app screenshots, converted from the store screenshots
 
 ## Deployment
 
-Hosted with GitHub Pages via the workflow in `.github/workflows/pages.yml`,
-which deploys the repository root on every push to `main`.
+Hosted with GitHub Pages, deploying from a branch: **Settings → Pages → Build
+and deployment → Source** is **Deploy from a branch**, `main`, `/ (root)`.
+Every push to `main` publishes the site; there's no deploy workflow.
 
-One-time setup in the repo settings:
+The custom domain `steady.lixlink.com` is declared in the `CNAME` file and set
+under **Settings → Pages → Custom domain**, with a DNS record at the domain
+provider pointing to GitHub Pages.
 
-1. **Settings → Pages → Build and deployment → Source**: select **GitHub
-   Actions** (not "Deploy from a branch").
-2. **Settings → Pages → Custom domain**: set to `steady.lixlink.com` (the
-   `CNAME` file in this repo already declares it) and add the corresponding
-   DNS record at your domain provider pointing to GitHub Pages.
+## Checks
 
-After that, merging to `main` deploys automatically.
+`.github/workflows/check.yml` runs [lychee](https://github.com/lycheeverse/lychee)
+on every PR and push to `main`. It fails if any page links to a missing page,
+image, or `#anchor`. It only checks internal links. To run it locally:
+
+```
+lychee --offline --root-dir "$PWD" --index-files index.html --include-fragments '*.html'
+```
+
+Dependabot (`.github/dependabot.yml`) opens a monthly PR to bump the GitHub
+Actions versions used by the workflows.
 
 ## Updating content
 
