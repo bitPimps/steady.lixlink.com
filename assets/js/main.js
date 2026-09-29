@@ -12,6 +12,14 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // Open the FAQ answer a link points at (e.g. the footer's /faq.html#contact)
+  const openTarget = () => {
+    const target = location.hash && document.getElementById(location.hash.slice(1));
+    if (target && target.tagName === 'DETAILS') target.open = true;
+  };
+  openTarget();
+  window.addEventListener('hashchange', openTarget);
+
   // FAQ search filter (faq.html only)
   const search = document.getElementById('faq-search');
   if (!search) return;
