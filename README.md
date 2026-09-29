@@ -36,6 +36,19 @@ One-time setup in the repo settings:
 
 After that, merging to `main` deploys automatically.
 
+## Checks
+
+`.github/workflows/check.yml` runs [lychee](https://github.com/lycheeverse/lychee)
+on every PR and push to `main`. It fails if any page links to a missing page,
+image, or `#anchor`. It only checks internal links. To run it locally:
+
+```
+lychee --offline --root-dir "$PWD" --index-files index.html --include-fragments '*.html'
+```
+
+Dependabot (`.github/dependabot.yml`) opens a monthly PR to bump the GitHub
+Actions versions used by the workflows.
+
 ## Updating content
 
 This is plain HTML/CSS, so edit the `.html` files directly. Keep FAQ answers
