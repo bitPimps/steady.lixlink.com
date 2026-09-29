@@ -17,7 +17,8 @@ in-app "Contact support" / help links can point to.
 ```
 assets/css/style.css   shared stylesheet
 assets/js/main.js      mobile nav toggle + FAQ search/filter
-assets/img/            favicons, app icon, hero image (cropped from the brand assets)
+assets/img/            favicons, app icon, og-image.jpg (1200x630 social share card)
+assets/img/screens/    app screenshots, converted from the store screenshots
 ```
 
 ## Deployment
@@ -40,6 +41,11 @@ After that, merging to `main` deploys automatically.
 This is plain HTML/CSS, so edit the `.html` files directly. Keep FAQ answers
 grounded in what the app actually does (check `bitPimps/steady` if a feature
 changes) so the Help Center doesn't drift from the real app behavior.
+
+The images in `assets/img/screens/` come from
+`store/google-play/screenshots/` in `bitPimps/steady` (resized to WebP; the
+`*-phone.webp` files are cropped to the phone frame). When the store
+screenshots change, regenerate these too so the site shows the current app.
 
 Before publishing, swap the placeholder App Store / Google Play links in
 `index.html`'s `#download` section for the real listing URLs once the app is
