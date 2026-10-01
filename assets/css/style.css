@@ -395,7 +395,7 @@ section {
   margin: 56px 0 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 20px;
 }
 
@@ -697,7 +697,7 @@ footer {
   }
 
   .screens {
-    grid-template-columns: repeat(4, 64%);
+    grid-template-columns: repeat(5, 64%);
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     padding-bottom: 8px;
@@ -778,7 +778,7 @@ footer {
   }
 
   .screens {
-    grid-template-columns: repeat(4, 78%);
+    grid-template-columns: repeat(5, 78%);
   }
 
   .pricing-card,
