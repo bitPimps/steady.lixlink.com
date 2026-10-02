@@ -33,6 +33,106 @@
   <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png" />
   <link rel="stylesheet" href="/assets/css/style.css" />
 
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://steady.lixlink.com/#organization",
+      "name": "Steady",
+      "url": "https://steady.lixlink.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://steady.lixlink.com/assets/img/icon-512.png",
+        "width": 512,
+        "height": 512
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer support",
+        "email": "steady-support@lixlink.com"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://steady.lixlink.com/#website",
+      "url": "https://steady.lixlink.com/",
+      "name": "Steady",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://steady.lixlink.com/#organization"
+      }
+    },
+    {
+      "@type": "MobileApplication",
+      "@id": "https://steady.lixlink.com/#app",
+      "name": "Steady: Sobriety & Habit Tracker",
+      "alternateName": "Steady",
+      "description": "A private, on-device sobriety and habit tracker with a live sobriety clock, daily check-ins, a mood and craving journal, and money-saved tracking. No account, no ads, no servers.",
+      "applicationCategory": "HealthApplication",
+      "operatingSystem": "iOS, Android",
+      "url": "https://steady.lixlink.com/",
+      "image": "https://steady.lixlink.com/assets/img/og-image.jpg",
+      "inLanguage": "en",
+      "screenshot": [
+        "https://steady.lixlink.com/assets/img/screens/dashboard-phone.webp",
+        "https://steady.lixlink.com/assets/img/screens/history.webp",
+        "https://steady.lixlink.com/assets/img/screens/insights.webp",
+        "https://steady.lixlink.com/assets/img/screens/habits.webp",
+        "https://steady.lixlink.com/assets/img/screens/themes.webp",
+        "https://steady.lixlink.com/assets/img/screens/onboarding.webp",
+        "https://steady.lixlink.com/assets/img/screens/privacy-phone.webp"
+      ],
+      "featureList": [
+        "Live sobriety clock",
+        "Daily check-ins",
+        "Money saved tracker",
+        "Milestone reminders",
+        "Mood and craving journal",
+        "Multiple habits (Premium)",
+        "Full history and streaks (Premium)",
+        "Insights on cravings and triggers (Premium)",
+        "Encrypted cloud backup to your own iCloud or Google Drive (Premium)",
+        "Accent themes (Premium)"
+      ],
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Steady (free)",
+          "price": "0",
+          "priceCurrency": "USD",
+          "description": "Free to download. Includes the sobriety clock, daily check-ins, money saved, milestone reminders, the journal and one habit."
+        },
+        {
+          "@type": "Offer",
+          "name": "Steady Premium (lifetime unlock)",
+          "price": "19.99",
+          "priceCurrency": "USD",
+          "description": "One-time in-app purchase, no subscription. Unlocks multiple habits, full history, Insights, accent themes and encrypted cloud backup."
+        }
+      ],
+      "publisher": {
+        "@id": "https://steady.lixlink.com/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://steady.lixlink.com/#webpage",
+      "url": "https://steady.lixlink.com/",
+      "name": "Steady: Sobriety & Habit Tracker",
+      "isPartOf": {
+        "@id": "https://steady.lixlink.com/#website"
+      },
+      "about": {
+        "@id": "https://steady.lixlink.com/#app"
+      },
+      "primaryImageOfPage": "https://steady.lixlink.com/assets/img/og-image.jpg",
+      "inLanguage": "en"
+    }
+  ]
+}
+  </script>
 </head>
 <body>
   <!-- Google Tag Manager (noscript) -->
@@ -71,7 +171,7 @@
             <a class="btn btn-primary" href="#download">Get Steady</a>
             <a class="btn btn-ghost" href="/faq.html">Visit the Help Center</a>
           </div>
-          <p class="hero-note">Free to start. One purchase unlocks everything, with no subscription.</p>
+          <p class="hero-note">Free to start. One $19.99 purchase unlocks everything, with no subscription.</p>
         </div>
         <div class="hero-art">
           <img class="phone-shot" src="/assets/img/screens/dashboard-phone.webp" width="520" height="941"
@@ -195,8 +295,8 @@
 
         <div class="pricing-card">
           <div class="eyebrow">Steady Premium</div>
-          <div class="price">Lifetime unlock</div>
-          <div class="price-note">One-time purchase · no subscription</div>
+          <div class="price">$19.99</div>
+          <div class="price-note">Lifetime unlock · one-time purchase (US) · no subscription</div>
           <ul class="pricing-list">
             <li>Track multiple habits at once</li>
             <li>Full history: streaks, milestones and a calendar</li>
@@ -215,8 +315,12 @@
           <h2>Ready to stay steady?</h2>
           <p>Download Steady for iOS or Android and start your clock today.</p>
           <div class="hero-actions" style="justify-content:center">
-            <a class="btn btn-outline" href="#" rel="noopener">App Store</a>
-            <a class="btn btn-outline" href="#" rel="noopener">Google Play</a>
+            <a class="store-badge" href="#" rel="noopener" aria-label="Download Steady on the App Store">
+              <img src="/assets/img/badge-app-store.svg" width="160" height="53" loading="lazy" alt="Download on the App Store" />
+            </a>
+            <a class="store-badge" href="#" rel="noopener" aria-label="Get Steady on Google Play">
+              <img src="/assets/img/badge-google-play.png" width="160" height="48" loading="lazy" alt="Get it on Google Play" />
+            </a>
           </div>
         </div>
       </div>

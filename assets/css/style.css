@@ -473,6 +473,16 @@ section {
   margin: 0 0 28px;
 }
 
+.store-badge {
+  display: inline-block;
+  line-height: 0;
+}
+
+.store-badge img {
+  height: 52px;
+  width: auto;
+}
+
 /* Footer */
 
 footer {

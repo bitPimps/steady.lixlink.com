@@ -1,0 +1,29 @@
+# Steady: Sobriety & Habit Tracker
+
+> Steady is a private, on-device sobriety and habit tracker for iOS and Android. It runs a live sobriety clock, takes a daily check-in, tracks money saved, and keeps a mood and craving journal. There is no account, no ads, no social feed and no server: everything stays on the user's phone unless they turn on encrypted backup to their own iCloud or Google Drive. It is free to start; a one-time Premium purchase of $19.99 USD (no subscription) unlocks everything.
+
+Steady is not a medical service and does not give medical advice. Insights describe patterns in what the user has logged.
+
+## Key facts
+
+- Platforms: iOS and Android
+- Category: Health and wellness (sobriety, habit tracking)
+- Account required: No. No sign-up, email address or login.
+- Data storage: On the user's device. Steady has no server or database holding user data.
+- Backup: Optional, Premium. Encrypted on the device before upload to the user's own iCloud or Google Drive.
+- Pricing: Free to start. Premium is a one-time lifetime unlock for $19.99 USD (US price), no subscription.
+- Free: sobriety clock, daily check-ins, money saved, milestone reminders, journal, dark mode, one habit
+- Premium: multiple habits, full history and streaks, Insights (mood, craving and trigger patterns), accent themes, encrypted cloud backup
+- Data control: Users can export a plain-text copy of everything they've logged and delete all data permanently from within the app.
+- Support: steady-support@lixlink.com
+
+## Pages
+
+- [Home](https://steady.lixlink.com/): What Steady does, features, privacy approach and pricing
+- [Help Center / FAQ](https://steady.lixlink.com/faq.html): Answers on the clock, check-ins, relapses and resets, the journal, Insights, notifications, privacy, backup and restore, export and delete, Premium purchases, and troubleshooting
+- [Privacy Policy](https://steady.lixlink.com/privacy.html): What data Steady handles and why almost none leaves the device
+- [Delete your data](https://steady.lixlink.com/delete-data.html): How to delete on-device data, cloud backups and purchase records
+
+## Optional
+
+- [Contact support](mailto:steady-support@lixlink.com)
