@@ -6,7 +6,7 @@ Steady is not a medical service and does not give medical advice. Insights descr
 
 ## Key facts
 
-- Platforms: iOS and Android
+- Platforms: iOS (App Store: https://apps.apple.com/app/id6817491189); Android (Google Play: https://play.google.com/store/apps/details?id=com.lixlink.steady)
 - Category: Health and wellness (sobriety, habit tracking)
 - Account required: No. No sign-up, email address or login.
 - Data storage: On the user's device. Steady has no server or database holding user data.

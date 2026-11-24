@@ -56,6 +56,7 @@ The images in `assets/img/screens/` come from
 `*-phone.webp` files are cropped to the phone frame). When the store
 screenshots change, regenerate these too so the site shows the current app.
 
-Before publishing, swap the placeholder App Store / Google Play links in
-`index.html`'s `#download` section for the real listing URLs once the app is
-live.
+The `#download` badges link to the live App Store and Google Play listings.
+The App Store link carries Apple campaign tokens (`pt=129534275`,
+`ct=site_download`); the Google Play link carries UTM tags and a matching
+`referrer`. Keep both in step with the GlowScroll site.
