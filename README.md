@@ -11,6 +11,11 @@ in-app "Contact support" / help links can point to.
   notifications, privacy, backup, exporting/deleting data, premium, troubleshooting)
 - `privacy.html`: privacy policy (useful for App Store / Play Store listing requirements)
 - `404.html`: not-found page
+- `guides/`: articles that answer common search questions (sober dates, milestones, relapse,
+  free apps, the hardest months, money saved). Each has Article, BreadcrumbList and FAQPage
+  schema; keep the FAQPage schema in sync with the visible "Common questions" section, and
+  update `dateModified`, the visible "Updated" date and the sitemap `lastmod` when you edit one.
+  Health claims cite their sources at the bottom of the page; re-check those links when updating.
 - `llms.txt`, `robots.txt`, `sitemap.xml`: discovery files for crawlers and AI assistants. Update `llms.txt` and the sitemap when pages or pricing change. JSON-LD schema lives in each page's `<head>`; the FAQPage schema in `faq.html` must be kept in sync with the visible FAQ.
 
 ## Structure

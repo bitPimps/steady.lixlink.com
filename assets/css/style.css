@@ -307,7 +307,7 @@ section {
 
 .card .tag {
   display: inline-block;
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -525,7 +525,8 @@ footer {
 /* FAQ page */
 
 .faq-hero {
-  padding: 64px 0 32px;
+  padding-top: 64px;
+  padding-bottom: 32px;
   text-align: center;
 }
 
@@ -665,7 +666,8 @@ footer {
 /* Simple content page (privacy) */
 
 .content-page {
-  padding: 64px 0 96px;
+  padding-top: 64px;
+  padding-bottom: 96px;
 }
 
 .content-page h1 {
@@ -755,8 +757,8 @@ footer {
     border-radius: var(--radius);
     flex-direction: column;
     align-items: flex-start;
-    padding: 18px;
-    gap: 14px;
+    padding: 10px 18px 18px;
+    gap: 2px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.18);
     transform: translateY(-12px);
     opacity: 0;
@@ -863,5 +865,257 @@ footer {
 @media print {
   .to-top {
     display: none;
+  }
+}
+
+/* Guides (articles answering common search questions) */
+
+.guide {
+  max-width: 760px;
+}
+
+.breadcrumbs {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin: 0 0 20px;
+}
+
+.breadcrumbs a {
+  color: var(--text-muted);
+}
+
+.answer-box {
+  background: var(--accent-soft);
+  border-radius: var(--radius-sm);
+  padding: 20px 24px;
+  margin: 0 0 32px;
+}
+
+.answer-box p {
+  color: var(--text);
+  font-size: 1.05rem;
+  margin: 0;
+}
+
+.content-page h3 {
+  font-size: 1.05rem;
+  margin: 28px 0 8px;
+}
+
+.table-scroll {
+  overflow-x: auto;
+  margin: 16px 0 24px;
+}
+
+.guide-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.guide-table th,
+.guide-table td {
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+
+.guide-table th {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.guide-table td {
+  color: var(--text-muted);
+}
+
+.note-box {
+  border-left: 4px solid var(--danger);
+  background: var(--surface);
+  border-radius: var(--radius-sm);
+  padding: 16px 20px;
+  margin: 24px 0;
+}
+
+.note-box p {
+  margin: 0;
+}
+
+.guide-cta {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px;
+  margin: 48px 0 0;
+}
+
+.guide-cta h2 {
+  margin-top: 0;
+}
+
+.guide-cta .hero-actions {
+  margin-top: 16px;
+}
+
+.calc {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px;
+  margin: 16px 0 24px;
+}
+
+.calc-fields {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+}
+
+.calc label {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.calc input,
+.calc select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--bg);
+  color: var(--text);
+  font: inherit;
+}
+
+.calc-results {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 12px;
+  margin: 20px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.calc-results li {
+  background: var(--accent-soft);
+  border-radius: var(--radius-sm);
+  padding: 12px;
+  color: var(--text);
+}
+
+.calc-results strong {
+  display: block;
+  font-size: 1.3rem;
+}
+
+.related {
+  margin-top: 48px;
+}
+
+.guide-list {
+  display: grid;
+  gap: 16px;
+  padding: 0;
+  list-style: none;
+}
+
+.guide-list li {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 18px 20px;
+}
+
+.guide-list a {
+  font-weight: 600;
+}
+
+.guide-list p {
+  margin: 6px 0 0;
+}
+
+.content-page .calc-results,
+.content-page .guide-list {
+  padding-left: 0;
+}
+
+.calc input,
+.calc select {
+  color-scheme: light dark;
+}
+
+/* On phones, guide tables become one card per row, each cell labelled
+   with its column header (data-label), instead of scrolling sideways. */
+@media (max-width: 600px) {
+  .guide-table thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+  }
+
+  .guide-table,
+  .guide-table tbody,
+  .guide-table tr,
+  .guide-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .guide-table tr {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    padding: 6px 16px;
+    margin-bottom: 12px;
+  }
+
+  .guide-table td {
+    border-bottom: 1px solid var(--border);
+    padding: 10px 0;
+  }
+
+  .guide-table td:last-child {
+    border-bottom: 0;
+  }
+
+  .guide-table td:first-child {
+    color: var(--text);
+    font-weight: 600;
+  }
+
+  .guide-table td[data-label]:not(:first-child)::before {
+    content: attr(data-label);
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--accent-text);
+    margin-bottom: 2px;
+  }
+}
+
+/* Phone menu: full-width rows at least 44px tall, so each link is easy to tap. */
+@media (max-width: 880px) {
+  .nav-links li {
+    width: 100%;
+  }
+
+  .nav-links a:not(.nav-cta) {
+    display: flex;
+    align-items: center;
+    min-height: 44px;
+  }
+
+  .nav-links a.nav-cta {
+    margin-top: 8px;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
   }
 }

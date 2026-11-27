@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://steady.lixlink.com/</loc></url>
-  <url><loc>https://steady.lixlink.com/faq.html</loc></url>
+  <url><loc>https://steady.lixlink.com/</loc><lastmod>2026-11-27</lastmod></url>
+  <url><loc>https://steady.lixlink.com/faq.html</loc><lastmod>2026-11-27</lastmod></url>
+  <url><loc>https://steady.lixlink.com/guides/</loc><lastmod>2026-11-27</lastmod></url>
+  <url><loc>https://steady.lixlink.com/guides/how-to-track-your-sobriety-date.html</loc><lastmod>2026-11-27</lastmod></url>
+  <url><loc>https://steady.lixlink.com/guides/app-to-track-sober-time.html</loc><lastmod>2026-11-27</lastmod></url>
+  <url><loc>https://steady.lixlink.com/guides/free-sobriety-apps.html</loc><lastmod>2026-11-27</lastmod></url>
+  <url><loc>https://steady.lixlink.com/guides/hardest-month-of-sobriety.html</loc><lastmod>2026-11-27</lastmod></url>
+  <url><loc>https://steady.lixlink.com/guides/sobriety-milestones.html</loc><lastmod>2026-11-27</lastmod></url>
+  <url><loc>https://steady.lixlink.com/guides/does-a-relapse-reset-your-sobriety-date.html</loc><lastmod>2026-11-27</lastmod></url>
+  <url><loc>https://steady.lixlink.com/guides/money-saved-quitting-drinking.html</loc><lastmod>2026-11-27</lastmod></url>
   <url><loc>https://steady.lixlink.com/privacy.html</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://steady.lixlink.com/delete-data.html</loc><lastmod>2026-11-17</lastmod></url>
 </urlset>
