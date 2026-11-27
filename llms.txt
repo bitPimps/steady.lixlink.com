@@ -24,6 +24,17 @@ Steady is not a medical service and does not give medical advice. Insights descr
 - [Privacy Policy](https://steady.lixlink.com/privacy.html): What data Steady handles and why almost none leaves the device
 - [Delete your data](https://steady.lixlink.com/delete-data.html): How to delete on-device data, cloud backups and purchase records
 
+## Guides
+
+- [Sobriety guides](https://steady.lixlink.com/guides/): Index of plain-language guides on tracking sobriety
+- [How to keep track of your sobriety date](https://steady.lixlink.com/guides/how-to-track-your-sobriety-date.html): Choosing a sober date; tracking it on paper, in a calendar, with a spreadsheet formula (=TODAY()-date) or an app
+- [Is there an app that can track my sober time?](https://steady.lixlink.com/guides/app-to-track-sober-time.html): What sobriety tracker apps do and a privacy and pricing checklist for choosing one
+- [Which sobriety apps are free?](https://steady.lixlink.com/guides/free-sobriety-apps.html): Free-with-ads, subscription and one-time-unlock models; free tools such as NIAAA Rethinking Drinking
+- [What is the hardest month of sobriety?](https://steady.lixlink.com/guides/hardest-month-of-sobriety.html): Month one, the months 2 to 4 dip (post-acute withdrawal) and what helps, with medical sources
+- [Sobriety milestones](https://steady.lixlink.com/guides/sobriety-milestones.html): 24 hours to 1 year, with a milestone date calculator
+- [Does a relapse reset your sobriety date?](https://steady.lixlink.com/guides/does-a-relapse-reset-your-sobriety-date.html): Slip vs relapse, what to do in the first 24 hours, and how Steady keeps past streaks
+- [How much money do you save by quitting drinking?](https://steady.lixlink.com/guides/money-saved-quitting-drinking.html): Savings calculator and worked examples ($10 a day is about $3,650 a year)
+
 ## Optional
 
 - [Contact support](mailto:steady-support@lixlink.com)
